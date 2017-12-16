@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name='description' content=''>
+    <meta name='author' content=''>
+    <link rel='stylesheet' href='min.css'>
+    <link rel='stylesheet' href='theme.css'>
+    <title>Surface</title>
+  </head>
+  <body id="body">
+      <div class='center'>
+        <h1>Surface</h1>
+        <div id='desc'>
+          <p>
+            This site is a simple index of alternative "web" platforms (otherwise known as the "deepweb").
+          </p>
+          <p>This site only lists sites with content that is legal in the United States, but there may be offensive content and content not suitable for children. We do not codone or promote any content shown unless otherwise noted. All sites are reviewed before being added.</p>
+        </div>
+        <b>Search: </b>
+        <form id='search' action='/search' method='get'>
+            <input class='smooth' name='text' required type='text' placeholder='find site'> <input class='searchBtn' type='submit' value='Search'>
+        </form>
+      </div>
+      <div id='sites'></div>
+      <noscript><iframe src='/getsites'></iframe></noscript>
+      <script src='purify.min.js'></script>
+      <script src='index.js'></script>
+  </body>
+</html>

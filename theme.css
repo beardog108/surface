@@ -1,0 +1,38 @@
+
+#sites{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.site .col{
+    border: 1px solid black;
+    padding: 1em;
+    word-wrap: break-word;
+    width: 500px;
+}
+
+.center{
+    text-align: center;
+}
+form {
+    display: inline-block;
+    text-align: center;
+    margin-top: 1em;
+}
+.searchBtn{
+    display: inline;
+}
+#search input{
+    display: inline;
+}
+
+#desc{
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+    padding: 1em;
+}
+
+.item{
+    float: right;
+}
